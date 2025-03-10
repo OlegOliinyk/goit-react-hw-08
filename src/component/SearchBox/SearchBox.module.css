@@ -1,0 +1,16 @@
+.searchBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.searchBox input {
+  padding: 4px;
+  border: 1px solid #727272;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 16em;
+}
+
+.searchBox input:hover {
+  border-color: #000000;
+}

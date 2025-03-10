@@ -1,0 +1,18 @@
+.contactContainer {
+  border: 1px solid #000000;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 15em;
+}
+
+.contactName,
+.contactPhone {
+  text-align: left;
+}
+
+.contactPhoneIcon {
+  transform: rotate(90deg);
+}
