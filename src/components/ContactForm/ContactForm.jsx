@@ -17,7 +17,7 @@ const ContactForm = () => {
       .required("Required field"),
   });
   const dispatch = useDispatch();
-  const onSubmit = (values) => {
+  const onSubmit = (values, { resetForm }) => {
     dispatch(
       addContact({
         id: nanoid(),
@@ -25,6 +25,7 @@ const ContactForm = () => {
         number: values.contactNumber,
       })
     );
+    resetForm();
   };
   return (
     <Formik
@@ -33,7 +34,7 @@ const ContactForm = () => {
         contactNumber: "",
       }}
       validationSchema={validationSchema}
-      onSubmit={(values) => onSubmit(values)}>
+      onSubmit={(values, resetForm) => onSubmit(values, resetForm)}>
       <Form className={style.contactForm}>
         <label htmlFor="contactName">Name</label>
         <Field

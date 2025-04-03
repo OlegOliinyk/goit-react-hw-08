@@ -21,6 +21,7 @@ const rootReduser = combineReducers({
 const persistConfig = {
   key: "phonebook",
   storage,
+  whitelist: ["contacts"],
 };
 
 const persistedReducer = persistReducer(persistConfig, rootReduser);
