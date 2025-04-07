@@ -4,3 +4,8 @@
   flex-wrap: wrap;
   gap: 12px;
 }
+
+.loader {
+  font-size: 24px;
+  margin: 0 auto;
+}
