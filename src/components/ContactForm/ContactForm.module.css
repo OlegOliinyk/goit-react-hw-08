@@ -1,4 +1,4 @@
-.contactForm {
+.form {
   border: 1px solid #000000;
   border-radius: 4px;
   display: flex;
@@ -7,18 +7,18 @@
   padding: 12px;
 }
 
-.contactNumber {
+#labelNumber {
   margin-top: 12px;
 }
 
-.input {
+.fieldForm {
   padding: 4px;
   border: 1px solid #727272;
   border-radius: 4px;
   font-size: 16px;
 }
 
-.input:hover {
+.fieldForm:hover {
   border-color: #000000;
 }
 
@@ -26,7 +26,7 @@
   color: #ff0000;
 }
 
-.contactForm button {
+.buttonForm {
   width: 50%;
   margin: 12px auto 0 auto;
 }
