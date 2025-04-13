@@ -1,0 +1,18 @@
+.div {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.text {
+  font-weight: bolder;
+}
+
+.btn {
+  border-radius: 4px;
+  cursor: pointer;
+  padding-top: 0;
+  padding-bottom: 3px;
+  margin: 0;
+  text-align: center;
+}

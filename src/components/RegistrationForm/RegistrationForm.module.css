@@ -3,7 +3,7 @@
   border-radius: 4px;
   display: flex;
   flex-direction: column;
-  max-width: 240px;
+  width: 240px;
   padding: 12px;
 }
 
@@ -27,6 +27,5 @@
 }
 
 .buttonForm {
-  width: 50%;
-  margin: 12px auto 0 auto;
+  margin: 18px auto 6px auto;
 }

@@ -1,16 +1,25 @@
-:root {
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
   font-family: system-ui, sans-serif, Arial;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   font-weight: 400;
-}
-
-body {
   margin: 0;
+  padding: 0;
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 2em;
+  font-weight: 700;
   line-height: 1.1;
+  text-align: center;
+}
+
+a {
+  color: rgb(26, 66, 154);
+  font-weight: 700;
 }
 
 button {
@@ -27,4 +36,5 @@ button {
 
 button:hover {
   border-color: #000000;
+  background-color: #e4e4e4;
 }

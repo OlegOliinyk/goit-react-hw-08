@@ -47,7 +47,7 @@ const ContactsPage = () => {
 
   return (
     <div className={styles.contactsPage}>
-      <h1>Phonebook</h1>
+      <h1>Contacts book</h1>
       <ContactForm />
       <SearchBox />
       <ContactList />

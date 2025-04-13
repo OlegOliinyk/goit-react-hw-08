@@ -1,7 +1,9 @@
+import styles from './HomePage.module.css';
+
 const HomePage = () => {
   return (
-    <div>
-      <h1>Welcome manager contact list</h1>
+    <div className={styles.homePage}>
+      <h1>Welcome to your contacts book</h1>
     </div>
   );
 };

@@ -57,7 +57,7 @@ const ContactForm = () => {
           Number
         </label>
         <Field
-          className={styles.fieldFormNumber}
+          className={styles.fieldForm}
           type="tel"
           id="contactNumber"
           name="contactNumber"
