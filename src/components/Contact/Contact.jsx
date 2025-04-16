@@ -1,7 +1,7 @@
-import { useDispatch } from "react-redux";
-import { deleteContact } from "../../redux/contactsOps";
-import { FaUser, FaPhone } from "react-icons/fa";
-import styles from "./Contact.module.css";
+import { useDispatch } from 'react-redux';
+import { deleteContact } from '../../redux/contacts/operations';
+import { FaUser, FaPhone } from 'react-icons/fa';
+import styles from './Contact.module.css';
 
 const Contact = ({ contact }) => {
   const dispatch = useDispatch();
@@ -25,7 +25,8 @@ const Contact = ({ contact }) => {
         onClick={() => {
           contactDelete(id);
         }}
-        style={{ marginLeft: "auto" }}>
+        style={{ marginLeft: 'auto' }}
+      >
         Delete
       </button>
     </div>
